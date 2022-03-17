@@ -6,7 +6,7 @@ provider "ibm" {
 // Provision cloudant resource instance with Lite plan
 resource "ibm_cloudant" "cloudant" {
   // Required arguments:
-  name     = "test_lite_plan_cloudant"
+  name     = "test_cloudant_for_terraform_operator"
   location = var.service_region
   plan     = "lite"
 }
